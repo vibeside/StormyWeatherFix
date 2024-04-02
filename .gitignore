@@ -1,0 +1,46 @@
+# Exclude everything
+/*
+
+# Specific includes
+
+## Editorconfig
+!.editorconfig
+
+## Build System/Scripts
+!/.config
+!/global.json
+!NuGet.Config
+!Directory.Build.props
+!Directory.Build.targets
+!build.sh
+!build.ps1
+!build.cmd
+
+## Markdowns
+!*.md
+!LICENSE
+
+## important Git files
+!.gitmodules
+!.gitignore
+!.gitattributes
+!.git-blame-ignore-revs
+
+## GitHub specific
+!.github/
+
+## Libraries
+!/libs
+
+## Solution
+!StormyWeatherFix.sln
+
+### TwitchChaosWithoutTwitch Project
+!/StormyWeatherFix
+/StormyWeatherFix/[Bb]in
+/StormyWeatherFix/[Oo]bj
+/StormyWeatherFix*[Dd]ist
+
+# Explicit exceptions/ignores
+**.user
+!**.template.*.user
